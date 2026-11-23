@@ -1,0 +1,202 @@
+{
+ "started": "2026-11-23 11:30:24",
+ "deploy": {
+  "Anni0401/qwen3-8b-dpo-query-rewrite-lora": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "don0ox1/Qwen3-8B-Roleplay-CN-v7": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "Alghayth/qwen3-studygenie-lora": {
+   "status": "ready",
+   "seconds": 17
+  },
+  "NonomiyaIzumi/qwen3-8b-defect-agent-lora": {
+   "status": "ready",
+   "seconds": 19
+  },
+  "NicoDeVargas/qwen3-8b-npc-dialogue-lora": {
+   "status": "ready",
+   "seconds": 19
+  },
+  "d-michail/Mitos-Qwen3-8B-Dialogue-LoRA": {
+   "status": "ready",
+   "seconds": 19
+  },
+  "Mhaquehaque/berkelium-qwen3-8b-cad-v1": {
+   "status": "ready",
+   "seconds": 19
+  },
+  "cortexrouter/judge-v1": {
+   "status": "ready",
+   "seconds": 19
+  },
+  "krxi123/asmsense-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 10
+  },
+  "ethduke/solana-program-types-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 10
+  },
+  "nabin2004/qwen-Manimator-1-grpo-clean": {
+   "status": "ready",
+   "seconds": 5
+  },
+  "rahulmohannett/edgehack-tell-qwen3-8b-agent-s-lora": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "mahendra1980/triage-qwen3-8b-public-v5": {
+   "status": "ready",
+   "seconds": 10
+  },
+  "sauceyy909/H4l0": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "TIGER-Lab/StopLoss-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "samadpls/torchlight-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 13
+  },
+  "stlussea/sydney-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 13
+  },
+  "remix3030303/cyber-qwen3-8b-agent-lora": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "Sauers/Qwen3-8B-tawny-owl-128-neurons": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "Graph-COM/KVEraser": {
+   "status": "failed",
+   "seconds": 11
+  },
+  "Vaib202/SecurMoE-Latent-8B": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "hiimivantang/qwen3-8b-jmed-lora": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "dolev31/ProactiveInquirer-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 13
+  },
+  "claran/lab4-wnc-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "arpjw/Qwen3-8B-RNA-Origami-RL": {
+   "status": "ready",
+   "seconds": 5
+  },
+  "cho00/qwen3-8b-m22-lora": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "AeliaTR/aelia-asama8-sft": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "lillycham/qwen3-8b-akyuu": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "mahounairo/qwen3-8b-state-reader-chat": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "ThakiCloud/RAG-Gate-8B-LoRA": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "starrylay/RC-OPD-8B": {
+   "status": "ready",
+   "seconds": 28
+  },
+  "atlas-institute/qwen3-8b-worker-sft": {
+   "status": "ready",
+   "seconds": 22
+  },
+  "su42436/qwen-3-8B-myself": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "voperl/Qwen3-8B-Code": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "Sliva322/Qwen3-8B-biotech-news-virality-QLoRA": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "zml5418/OPSD-LoRA-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 22
+  },
+  "seshataitech/Seshat-ohada-8B-v0.2.0-beta8": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "yiweiqin/detective_model": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "CyrusZhouzk/CREDIT-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "omelet-ai/OptiLIR-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 9
+  }
+ },
+ "load": {},
+ "deploy_wall_s": 72,
+ "realistic": {
+  "8": {
+   "requests": 96,
+   "ok": 96,
+   "error_count": 0,
+   "errors": [],
+   "wall_s": 78.9,
+   "ttft_p50": 2.99,
+   "ttft_p95": 3.98,
+   "latency_p50": 6.04,
+   "latency_p95": 12.58,
+   "input_tokens": 230888,
+   "output_tokens": 5037,
+   "in_tok_per_s": 2927.4,
+   "out_tok_per_s": 63.9,
+   "revenue_per_hour_usd": 1.146
+  },
+  "32": {
+   "requests": 256,
+   "ok": 256,
+   "error_count": 0,
+   "errors": [],
+   "wall_s": 198.9,
+   "ttft_p50": 21.48,
+   "ttft_p95": 22.72,
+   "latency_p50": 24.35,
+   "latency_p95": 27.24,
+   "input_tokens": 627278,
+   "output_tokens": 12067,
+   "in_tok_per_s": 3154.5,
+   "out_tok_per_s": 60.7,
+   "revenue_per_hour_usd": 1.223
+  }
+ },
+ "finished": "2026-11-23 11:36:14"
+}

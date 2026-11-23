@@ -1,0 +1,214 @@
+{
+ "started": "2026-11-23 11:08:21",
+ "deploy": {
+  "don0ox1/Qwen3-8B-Roleplay-CN-v7": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "Anni0401/qwen3-8b-dpo-query-rewrite-lora": {
+   "status": "ready",
+   "seconds": 14
+  },
+  "Mhaquehaque/berkelium-qwen3-8b-cad-v1": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "d-michail/Mitos-Qwen3-8B-Dialogue-LoRA": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "cortexrouter/judge-v1": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "Alghayth/qwen3-studygenie-lora": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "NonomiyaIzumi/qwen3-8b-defect-agent-lora": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "NicoDeVargas/qwen3-8b-npc-dialogue-lora": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "ethduke/solana-program-types-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 12
+  },
+  "rahulmohannett/edgehack-tell-qwen3-8b-agent-s-lora": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "krxi123/asmsense-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "sauceyy909/H4l0": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "nabin2004/qwen-Manimator-1-grpo-clean": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "TIGER-Lab/StopLoss-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "samadpls/torchlight-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "mahendra1980/triage-qwen3-8b-public-v5": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "Sauers/Qwen3-8B-tawny-owl-128-neurons": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "stlussea/sydney-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "remix3030303/cyber-qwen3-8b-agent-lora": {
+   "status": "ready",
+   "seconds": 17
+  },
+  "Graph-COM/KVEraser": {
+   "status": "failed",
+   "seconds": 9
+  },
+  "dolev31/ProactiveInquirer-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "claran/lab4-wnc-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "hiimivantang/qwen3-8b-jmed-lora": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "arpjw/Qwen3-8B-RNA-Origami-RL": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "Vaib202/SecurMoE-Latent-8B": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "cho00/qwen3-8b-m22-lora": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "AeliaTR/aelia-asama8-sft": {
+   "status": "ready",
+   "seconds": 13
+  },
+  "lillycham/qwen3-8b-akyuu": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "mahounairo/qwen3-8b-state-reader-chat": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "ThakiCloud/RAG-Gate-8B-LoRA": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "starrylay/RC-OPD-8B": {
+   "status": "ready",
+   "seconds": 26
+  },
+  "Sliva322/Qwen3-8B-biotech-news-virality-QLoRA": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "voperl/Qwen3-8B-Code": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "su42436/qwen-3-8B-myself": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "atlas-institute/qwen3-8b-worker-sft": {
+   "status": "ready",
+   "seconds": 22
+  },
+  "zml5418/OPSD-LoRA-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 22
+  },
+  "seshataitech/Seshat-ohada-8B-v0.2.0-beta8": {
+   "status": "ready",
+   "seconds": 13
+  },
+  "yiweiqin/detective_model": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "CyrusZhouzk/CREDIT-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 20
+  },
+  "omelet-ai/OptiLIR-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 13
+  }
+ },
+ "load": {
+  "1": {
+   "requests": 20,
+   "ok": 20,
+   "errors": [],
+   "error_count": 0,
+   "adapters_hit": 15,
+   "wall_s": 55.6,
+   "ttft_p50": 0.18,
+   "ttft_p95": 0.26,
+   "latency_p50": 2.6,
+   "latency_p95": 5.66,
+   "output_tokens": 1929,
+   "agg_tok_per_s": 34.7,
+   "per_req_tok_per_s_p50": 37.14
+  },
+  "8": {
+   "requests": 80,
+   "ok": 80,
+   "errors": [],
+   "error_count": 0,
+   "adapters_hit": 33,
+   "wall_s": 44.4,
+   "ttft_p50": 0.25,
+   "ttft_p95": 0.73,
+   "latency_p50": 3.73,
+   "latency_p95": 9.73,
+   "output_tokens": 6805,
+   "agg_tok_per_s": 153.3,
+   "per_req_tok_per_s_p50": 22.24
+  },
+  "32": {
+   "requests": 192,
+   "ok": 192,
+   "errors": [],
+   "error_count": 0,
+   "adapters_hit": 39,
+   "wall_s": 65.5,
+   "ttft_p50": 6.08,
+   "ttft_p95": 11.52,
+   "latency_p50": 10.17,
+   "latency_p95": 18.39,
+   "output_tokens": 15107,
+   "agg_tok_per_s": 230.8,
+   "per_req_tok_per_s_p50": 20.91
+  }
+ },
+ "deploy_wall_s": 76,
+ "finished": "2026-11-23 11:12:22"
+}

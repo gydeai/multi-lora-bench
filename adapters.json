@@ -1,0 +1,620 @@
+[
+ {
+  "repo": "don0ox1/Qwen3-8B-Roleplay-CN-v7",
+  "revision": "1db31574d07f2ed5e0232bd80d27824c345ec708",
+  "rank": 16,
+  "target_modules": [
+   "q_proj",
+   "o_proj",
+   "up_proj",
+   "down_proj",
+   "gate_proj",
+   "v_proj",
+   "k_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "Anni0401/qwen3-8b-dpo-query-rewrite-lora",
+  "revision": "3df70ea406ebcf4f893870a9bd3df88ed7b95bbf",
+  "rank": 8,
+  "target_modules": [
+   "k_proj",
+   "up_proj",
+   "o_proj",
+   "gate_proj",
+   "q_proj",
+   "down_proj",
+   "v_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "Mhaquehaque/berkelium-qwen3-8b-cad-v1",
+  "revision": "442527ecb494049110d6e071e0383ef0838a8e09",
+  "rank": 32,
+  "target_modules": [
+   "q_proj",
+   "o_proj",
+   "gate_proj",
+   "v_proj",
+   "k_proj",
+   "up_proj",
+   "down_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "d-michail/Mitos-Qwen3-8B-Dialogue-LoRA",
+  "revision": "6b217147a16b02e2753e106f3e7501e067a1d4ba",
+  "rank": 16,
+  "target_modules": [
+   "v_proj",
+   "up_proj",
+   "down_proj",
+   "gate_proj",
+   "k_proj",
+   "o_proj",
+   "q_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "cortexrouter/judge-v1",
+  "revision": "c0b8773f0a33e757c2d051de7207f90fa4683129",
+  "rank": 16,
+  "target_modules": [
+   "v_proj",
+   "k_proj",
+   "q_proj",
+   "o_proj",
+   "up_proj",
+   "down_proj",
+   "gate_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "Alghayth/qwen3-studygenie-lora",
+  "revision": "9d76f938e26d1be9bb4fb10957a26c84428cd2a3",
+  "rank": 16,
+  "target_modules": [
+   "v_proj",
+   "q_proj",
+   "down_proj",
+   "up_proj",
+   "o_proj",
+   "k_proj",
+   "gate_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "NonomiyaIzumi/qwen3-8b-defect-agent-lora",
+  "revision": "6a418e6cdcdda1b3beac6dfb45bd1f6ef418c25d",
+  "rank": 16,
+  "target_modules": [
+   "q_proj",
+   "gate_proj",
+   "up_proj",
+   "v_proj",
+   "down_proj",
+   "o_proj",
+   "k_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "NicoDeVargas/qwen3-8b-npc-dialogue-lora",
+  "revision": "471f79f669d96521e1ad303884cb590c03e073dc",
+  "rank": 16,
+  "target_modules": [
+   "gate_proj",
+   "q_proj",
+   "o_proj",
+   "up_proj",
+   "v_proj",
+   "down_proj",
+   "k_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "ethduke/solana-program-types-qwen3-8b-lora",
+  "revision": "d2483a62eddc5ce26a075cbaccaf93c075d65009",
+  "rank": 16,
+  "target_modules": [
+   "up_proj",
+   "q_proj",
+   "k_proj",
+   "down_proj",
+   "v_proj",
+   "o_proj",
+   "gate_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "rahulmohannett/edgehack-tell-qwen3-8b-agent-s-lora",
+  "revision": "76260d00f926195d598c49299ffd63fb9c8df763",
+  "rank": 8,
+  "target_modules": [
+   "k_proj",
+   "v_proj",
+   "q_proj",
+   "o_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "krxi123/asmsense-qwen3-8b-lora",
+  "revision": "a07bf697862305ce121ac4bb01ae6d0f2cf5a8ca",
+  "rank": 16,
+  "target_modules": [
+   "q_proj",
+   "up_proj",
+   "k_proj",
+   "o_proj",
+   "v_proj",
+   "down_proj",
+   "gate_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "sauceyy909/H4l0",
+  "revision": "d443a83ca91e28dc060e0ba3b666c0640ee6bb3b",
+  "rank": 16,
+  "target_modules": [
+   "k_proj",
+   "down_proj",
+   "o_proj",
+   "up_proj",
+   "q_proj",
+   "v_proj",
+   "gate_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "nabin2004/qwen-Manimator-1-grpo-clean",
+  "revision": "bb14f3898aaf9a5b8378e78140ba3743b613c44f",
+  "rank": 16,
+  "target_modules": [
+   "v_proj",
+   "up_proj",
+   "q_proj",
+   "gate_proj",
+   "k_proj",
+   "down_proj",
+   "o_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "TIGER-Lab/StopLoss-Qwen3-8B",
+  "revision": "81c31fcf39c81dad30833523adbdb3226fa8ba1b",
+  "rank": 16,
+  "target_modules": [
+   "o_proj",
+   "k_proj",
+   "v_proj",
+   "q_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "samadpls/torchlight-qwen3-8b-lora",
+  "revision": "035fdd3b97c146a7000b2db4c88f5c249959dfef",
+  "rank": 16,
+  "target_modules": [
+   "gate_proj",
+   "q_proj",
+   "k_proj",
+   "up_proj",
+   "down_proj",
+   "o_proj",
+   "v_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "mahendra1980/triage-qwen3-8b-public-v5",
+  "revision": "dcdc2714a3e9f336ed108c880856bb851e7b0532",
+  "rank": 16,
+  "target_modules": [
+   "q_proj",
+   "k_proj",
+   "gate_proj",
+   "v_proj",
+   "up_proj",
+   "o_proj",
+   "down_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "Sauers/Qwen3-8B-tawny-owl-128-neurons",
+  "revision": "620d13b2ae1df84992c5074225d38d048fe68a07",
+  "rank": 32,
+  "target_modules": [
+   "gate_proj",
+   "up_proj",
+   "down_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "stlussea/sydney-qwen3-8b-lora",
+  "revision": "b747493463df0987ec411322d06c1122ff69c73f",
+  "rank": 16,
+  "target_modules": [
+   "o_proj",
+   "k_proj",
+   "gate_proj",
+   "v_proj",
+   "up_proj",
+   "down_proj",
+   "q_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "remix3030303/cyber-qwen3-8b-agent-lora",
+  "revision": "b37ee9fd53d7bccba4c92be5f02dcc6997fed0cf",
+  "rank": 32,
+  "target_modules": [
+   "down_proj",
+   "k_proj",
+   "v_proj",
+   "o_proj",
+   "up_proj",
+   "q_proj",
+   "gate_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "Graph-COM/KVEraser",
+  "revision": "4eefcba83a8956e257e8253d891c1a3fe29dbd2c",
+  "rank": 16,
+  "target_modules": [
+   "gate_proj",
+   "down_proj",
+   "v_proj",
+   "up_proj",
+   "o_proj",
+   "q_proj",
+   "k_proj"
+  ],
+  "loaded_8_slots_rank64": false,
+  "loaded_16_slots_rank32": false,
+  "why_not": "Tensor 'base_model.model.layers.0.mlp.down_proj.lora_A.weight' doesn't match Qwen3-8B's layer names (expected base_model.model.model.layers.N...). The adapter may have been saved from a different mode"
+ },
+ {
+  "repo": "dolev31/ProactiveInquirer-Qwen3-8B",
+  "revision": "3e4fa30aec63b4f71841f17e017760d715a89af2",
+  "rank": 32,
+  "target_modules": [
+   "down_proj",
+   "v_proj",
+   "q_proj",
+   "up_proj",
+   "o_proj",
+   "k_proj",
+   "gate_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "claran/lab4-wnc-qwen3-8b-lora",
+  "revision": "88ccb594f837d78058d9adf4777dcfd70fda3856",
+  "rank": 16,
+  "target_modules": [
+   "v_proj",
+   "k_proj",
+   "q_proj",
+   "o_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "hiimivantang/qwen3-8b-jmed-lora",
+  "revision": "375c2098f697c93660eac4e66cfd458311153e7c",
+  "rank": 16,
+  "target_modules": [
+   "q_proj",
+   "v_proj",
+   "o_proj",
+   "k_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "arpjw/Qwen3-8B-RNA-Origami-RL",
+  "revision": "190c278c45f301b7a0c6043596a68df27bd7ddae",
+  "rank": 16,
+  "target_modules": [
+   "o_proj",
+   "v_proj",
+   "q_proj",
+   "k_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "Vaib202/SecurMoE-Latent-8B",
+  "revision": "410059a0ab64f32177678e3e865233b09f232ed3",
+  "rank": 16,
+  "target_modules": [
+   "o_proj",
+   "v_proj",
+   "k_proj",
+   "down_proj",
+   "gate_proj",
+   "q_proj",
+   "up_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "cho00/qwen3-8b-m22-lora",
+  "revision": "fbe2242c3ed5be2802183871c8d645a8aa48c26a",
+  "rank": 16,
+  "target_modules": [
+   "q_proj",
+   "k_proj",
+   "up_proj",
+   "down_proj",
+   "o_proj",
+   "gate_proj",
+   "v_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "AeliaTR/aelia-asama8-sft",
+  "revision": "2167d391eec0aa6b6a04bcb3667002a787bf9f60",
+  "rank": 32,
+  "target_modules": [
+   "down_proj",
+   "up_proj",
+   "q_proj",
+   "k_proj",
+   "v_proj",
+   "gate_proj",
+   "o_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "lillycham/qwen3-8b-akyuu",
+  "revision": "5e01e0a30e346a06b0a0465a77da93452b0dd94d",
+  "rank": 21,
+  "target_modules": [
+   "gate_proj",
+   "up_proj",
+   "down_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "mahounairo/qwen3-8b-state-reader-chat",
+  "revision": "05d2d1058a5316c48b1314f988e34eebf6524dfd",
+  "rank": 16,
+  "target_modules": [
+   "gate_proj",
+   "q_proj",
+   "k_proj",
+   "v_proj",
+   "up_proj",
+   "o_proj",
+   "down_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "ThakiCloud/RAG-Gate-8B-LoRA",
+  "revision": "efc2ce948c8c0b62000842cfcaa1cfe9b96d35fa",
+  "rank": 16,
+  "target_modules": [
+   "up_proj",
+   "q_proj",
+   "down_proj",
+   "gate_proj",
+   "o_proj",
+   "k_proj",
+   "v_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "starrylay/RC-OPD-8B",
+  "revision": "c4ab6d513ff99d7e75cfd3db51d73ff112c28fca",
+  "rank": 64,
+  "target_modules": [
+   "up_proj",
+   "v_proj",
+   "down_proj",
+   "gate_proj",
+   "q_proj",
+   "k_proj",
+   "o_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": false
+ },
+ {
+  "repo": "Sliva322/Qwen3-8B-biotech-news-virality-QLoRA",
+  "revision": "9b30038723f55fd2351389f73faff8f86374eeb5",
+  "rank": 16,
+  "target_modules": [
+   "o_proj",
+   "v_proj",
+   "up_proj",
+   "k_proj",
+   "down_proj",
+   "q_proj",
+   "gate_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "voperl/Qwen3-8B-Code",
+  "revision": "57065320603ee871bcec26b394e1c1c6705d6579",
+  "rank": 16,
+  "target_modules": [
+   "k_proj",
+   "down_proj",
+   "q_proj",
+   "up_proj",
+   "gate_proj",
+   "o_proj",
+   "v_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "su42436/qwen-3-8B-myself",
+  "revision": "a35c8023214ff64d2e2ca6f092bbe8bd56e1eabe",
+  "rank": 16,
+  "target_modules": [
+   "down_proj",
+   "gate_proj",
+   "o_proj",
+   "k_proj",
+   "q_proj",
+   "up_proj",
+   "v_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "atlas-institute/qwen3-8b-worker-sft",
+  "revision": "0d42b7e339c1c6174b9b204b043e3b1267ad0c18",
+  "rank": 32,
+  "target_modules": [
+   "gate_proj",
+   "q_proj",
+   "k_proj",
+   "o_proj",
+   "up_proj",
+   "down_proj",
+   "v_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "zml5418/OPSD-LoRA-Qwen3-8B",
+  "revision": "9497779734fc3220f07f469e95e8524bbbfa7c76",
+  "rank": 64,
+  "target_modules": [
+   "o_proj",
+   "up_proj",
+   "k_proj",
+   "down_proj",
+   "v_proj",
+   "q_proj",
+   "gate_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": false
+ },
+ {
+  "repo": "seshataitech/Seshat-ohada-8B-v0.2.0-beta8",
+  "revision": "62a9626fec6cccc8d9f0983d48575f63d7140eba",
+  "rank": 32,
+  "target_modules": [
+   "o_proj",
+   "gate_proj",
+   "v_proj",
+   "down_proj",
+   "q_proj",
+   "k_proj",
+   "up_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "yiweiqin/detective_model",
+  "revision": "28bde4945ef43494ad5a07b4633f130e74070c76",
+  "rank": 16,
+  "target_modules": [
+   "up_proj",
+   "gate_proj",
+   "v_proj",
+   "k_proj",
+   "down_proj",
+   "o_proj",
+   "q_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ },
+ {
+  "repo": "CyrusZhouzk/CREDIT-Qwen3-8B",
+  "revision": "dbe82d2e383406f2728712336be0b64154f149fb",
+  "rank": 64,
+  "target_modules": [
+   "v_proj",
+   "up_proj",
+   "gate_proj",
+   "q_proj",
+   "o_proj",
+   "k_proj",
+   "down_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": false
+ },
+ {
+  "repo": "omelet-ai/OptiLIR-Qwen3-8B",
+  "revision": "4ffdd9165392621cf21be86a915232a09a19c440",
+  "rank": 32,
+  "target_modules": [
+   "up_proj",
+   "q_proj",
+   "down_proj",
+   "k_proj",
+   "gate_proj",
+   "o_proj",
+   "v_proj"
+  ],
+  "loaded_8_slots_rank64": true,
+  "loaded_16_slots_rank32": true
+ }
+]

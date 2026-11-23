@@ -1,0 +1,214 @@
+{
+ "started": "2026-11-23 15:03:15",
+ "deploy": {
+  "Anni0401/qwen3-8b-dpo-query-rewrite-lora": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "don0ox1/Qwen3-8B-Roleplay-CN-v7": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "krxi123/asmsense-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 8
+  },
+  "cortexrouter/judge-v1": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "Alghayth/qwen3-studygenie-lora": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "NonomiyaIzumi/qwen3-8b-defect-agent-lora": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "d-michail/Mitos-Qwen3-8B-Dialogue-LoRA": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "NicoDeVargas/qwen3-8b-npc-dialogue-lora": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "Mhaquehaque/berkelium-qwen3-8b-cad-v1": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "ethduke/solana-program-types-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 12
+  },
+  "nabin2004/qwen-Manimator-1-grpo-clean": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "sauceyy909/H4l0": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "rahulmohannett/edgehack-tell-qwen3-8b-agent-s-lora": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "mahendra1980/triage-qwen3-8b-public-v5": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "samadpls/torchlight-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "TIGER-Lab/StopLoss-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 5
+  },
+  "stlussea/sydney-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 13
+  },
+  "Sauers/Qwen3-8B-tawny-owl-128-neurons": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "Graph-COM/KVEraser": {
+   "status": "failed",
+   "seconds": 9
+  },
+  "remix3030303/cyber-qwen3-8b-agent-lora": {
+   "status": "ready",
+   "seconds": 20
+  },
+  "hiimivantang/qwen3-8b-jmed-lora": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "dolev31/ProactiveInquirer-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 13
+  },
+  "arpjw/Qwen3-8B-RNA-Origami-RL": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "AeliaTR/aelia-asama8-sft": {
+   "status": "ready",
+   "seconds": 16
+  },
+  "claran/lab4-wnc-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "cho00/qwen3-8b-m22-lora": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "lillycham/qwen3-8b-akyuu": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "mahounairo/qwen3-8b-state-reader-chat": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "atlas-institute/qwen3-8b-worker-sft": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "Vaib202/SecurMoE-Latent-8B": {
+   "status": "ready",
+   "seconds": 28
+  },
+  "ThakiCloud/RAG-Gate-8B-LoRA": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "su42436/qwen-3-8B-myself": {
+   "status": "ready",
+   "seconds": 13
+  },
+  "starrylay/RC-OPD-8B": {
+   "status": "failed",
+   "seconds": 28
+  },
+  "Sliva322/Qwen3-8B-biotech-news-virality-QLoRA": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "voperl/Qwen3-8B-Code": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "zml5418/OPSD-LoRA-Qwen3-8B": {
+   "status": "failed",
+   "seconds": 20
+  },
+  "seshataitech/Seshat-ohada-8B-v0.2.0-beta8": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "yiweiqin/detective_model": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "CyrusZhouzk/CREDIT-Qwen3-8B": {
+   "status": "failed",
+   "seconds": 26
+  },
+  "omelet-ai/OptiLIR-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 24
+  }
+ },
+ "load": {},
+ "deploy_wall_s": 86,
+ "chatmix": {
+  "U_spread_c32": {
+   "requests": 192,
+   "ok": 192,
+   "errors": 0,
+   "wall_s": 42.6,
+   "ttft_p50": 0.76,
+   "ttft_p95": 5.25,
+   "out_tok_per_s": 394.1,
+   "per_req_tok_s_p50": 19.08,
+   "revenue_per_hour_usd": 0.568
+  },
+  "U_spread_c64": {
+   "requests": 384,
+   "ok": 384,
+   "errors": 0,
+   "wall_s": 56.2,
+   "ttft_p50": 0.92,
+   "ttft_p95": 10.13,
+   "out_tok_per_s": 581.1,
+   "per_req_tok_s_p50": 18.23,
+   "revenue_per_hour_usd": 0.837
+  },
+  "A_concentrated_c32": {
+   "requests": 192,
+   "ok": 192,
+   "errors": 0,
+   "wall_s": 29.6,
+   "ttft_p50": 0.26,
+   "ttft_p95": 0.47,
+   "out_tok_per_s": 601.0,
+   "per_req_tok_s_p50": 23.05,
+   "revenue_per_hour_usd": 0.865
+  },
+  "A_concentrated_c64": {
+   "requests": 384,
+   "ok": 384,
+   "errors": 0,
+   "wall_s": 40.4,
+   "ttft_p50": 0.31,
+   "ttft_p95": 1.32,
+   "out_tok_per_s": 863.6,
+   "per_req_tok_s_p50": 17.04,
+   "revenue_per_hour_usd": 1.244
+  }
+ },
+ "finished": "2026-11-23 15:07:33"
+}

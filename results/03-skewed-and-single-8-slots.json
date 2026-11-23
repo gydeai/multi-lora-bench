@@ -1,0 +1,214 @@
+{
+ "started": "2026-11-23 14:50:57",
+ "deploy": {
+  "don0ox1/Qwen3-8B-Roleplay-CN-v7": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "Anni0401/qwen3-8b-dpo-query-rewrite-lora": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "d-michail/Mitos-Qwen3-8B-Dialogue-LoRA": {
+   "status": "ready",
+   "seconds": 17
+  },
+  "NicoDeVargas/qwen3-8b-npc-dialogue-lora": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "NonomiyaIzumi/qwen3-8b-defect-agent-lora": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "Alghayth/qwen3-studygenie-lora": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "Mhaquehaque/berkelium-qwen3-8b-cad-v1": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "cortexrouter/judge-v1": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "krxi123/asmsense-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "ethduke/solana-program-types-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "rahulmohannett/edgehack-tell-qwen3-8b-agent-s-lora": {
+   "status": "ready",
+   "seconds": 5
+  },
+  "mahendra1980/triage-qwen3-8b-public-v5": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "nabin2004/qwen-Manimator-1-grpo-clean": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "sauceyy909/H4l0": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "stlussea/sydney-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "TIGER-Lab/StopLoss-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "samadpls/torchlight-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 13
+  },
+  "remix3030303/cyber-qwen3-8b-agent-lora": {
+   "status": "ready",
+   "seconds": 15
+  },
+  "hiimivantang/qwen3-8b-jmed-lora": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "Graph-COM/KVEraser": {
+   "status": "failed",
+   "seconds": 11
+  },
+  "Vaib202/SecurMoE-Latent-8B": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "cho00/qwen3-8b-m22-lora": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "claran/lab4-wnc-qwen3-8b-lora": {
+   "status": "ready",
+   "seconds": 7
+  },
+  "Sauers/Qwen3-8B-tawny-owl-128-neurons": {
+   "status": "ready",
+   "seconds": 26
+  },
+  "AeliaTR/aelia-asama8-sft": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "dolev31/ProactiveInquirer-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 20
+  },
+  "arpjw/Qwen3-8B-RNA-Origami-RL": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "lillycham/qwen3-8b-akyuu": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "mahounairo/qwen3-8b-state-reader-chat": {
+   "status": "ready",
+   "seconds": 9
+  },
+  "su42436/qwen-3-8B-myself": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "ThakiCloud/RAG-Gate-8B-LoRA": {
+   "status": "ready",
+   "seconds": 14
+  },
+  "voperl/Qwen3-8B-Code": {
+   "status": "ready",
+   "seconds": 12
+  },
+  "Sliva322/Qwen3-8B-biotech-news-virality-QLoRA": {
+   "status": "ready",
+   "seconds": 14
+  },
+  "atlas-institute/qwen3-8b-worker-sft": {
+   "status": "ready",
+   "seconds": 20
+  },
+  "zml5418/OPSD-LoRA-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "yiweiqin/detective_model": {
+   "status": "ready",
+   "seconds": 11
+  },
+  "seshataitech/Seshat-ohada-8B-v0.2.0-beta8": {
+   "status": "ready",
+   "seconds": 18
+  },
+  "omelet-ai/OptiLIR-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 13
+  },
+  "CyrusZhouzk/CREDIT-Qwen3-8B": {
+   "status": "ready",
+   "seconds": 24
+  },
+  "starrylay/RC-OPD-8B": {
+   "status": "ready",
+   "seconds": 54
+  }
+ },
+ "load": {},
+ "deploy_wall_s": 86,
+ "chatmix": {
+  "A_concentrated_c32": {
+   "requests": 192,
+   "ok": 192,
+   "errors": 0,
+   "wall_s": 38.7,
+   "ttft_p50": 0.28,
+   "ttft_p95": 10.85,
+   "out_tok_per_s": 418.2,
+   "per_req_tok_s_p50": 21.26,
+   "revenue_per_hour_usd": 0.602
+  },
+  "A_concentrated_c64": {
+   "requests": 384,
+   "ok": 384,
+   "errors": 0,
+   "wall_s": 64.3,
+   "ttft_p50": 0.3,
+   "ttft_p95": 20.96,
+   "out_tok_per_s": 540.9,
+   "per_req_tok_s_p50": 20.36,
+   "revenue_per_hour_usd": 0.779
+  },
+  "B_single_c32": {
+   "requests": 192,
+   "ok": 192,
+   "errors": 0,
+   "wall_s": 20.0,
+   "ttft_p50": 0.22,
+   "ttft_p95": 0.27,
+   "out_tok_per_s": 806.3,
+   "per_req_tok_s_p50": 34.03,
+   "revenue_per_hour_usd": 1.161
+  },
+  "B_single_c64": {
+   "requests": 384,
+   "ok": 384,
+   "errors": 0,
+   "wall_s": 25.7,
+   "ttft_p50": 0.25,
+   "ttft_p95": 0.35,
+   "out_tok_per_s": 1390.3,
+   "per_req_tok_s_p50": 27.23,
+   "revenue_per_hour_usd": 2.002
+  }
+ },
+ "finished": "2026-11-23 14:55:04"
+}
