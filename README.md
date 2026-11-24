@@ -2,7 +2,9 @@
 
 We put 39 public Qwen3-8B LoRA adapters from Hugging Face on one 24 GB NVIDIA A30, all at the same time, and sent traffic at them with vLLM. This repo has the adapters, the exact vLLM command, the load-test script and the raw results, so you can check our numbers or run the same test on your own GPU.
 
-Short version: **adapter swapping, not the GPU, sets your throughput.** At 32 requests at a time, one adapter alone did 806 output tokens/s. The same load spread evenly over 39 adapters did 231.
+Short version: **adapter swapping sets your throughput.** At 32 requests at a time, one adapter alone did 806 output tokens/s. The same load spread evenly over 39 adapters did 231.
+
+A longer write-up, with what went wrong along the way: [How many fine-tuned models can one small GPU serve?](https://theinferencenotebook.substack.com/p/how-many-fine-tuned-models-can-one)
 
 ## Setup
 
