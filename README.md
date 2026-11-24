@@ -10,7 +10,7 @@ Short version: **adapter swapping, not the GPU, sets your throughput.** At 32 re
 - vLLM 0.33.0, Qwen3-8B in bf16 ([revision b968826](https://huggingface.co/Qwen/Qwen3-8B/tree/b968826d9c46dd6066d109eabc6255188de91218)), `--max-model-len 8192 --gpu-memory-utilization 0.92`
 - LoRA: `--enable-lora --max-lora-rank 64 --max-loras 8 --max-cpu-loras 32` (see [serve.sh](serve.sh))
 - Adapters: the newest public Qwen3-8B adapter from each of 40 different authors on Hugging Face, ranks 8 to 64. 39 loaded. One failed because its tensor names came from a different model class. The list, with ranks and exact revisions, is in [adapters.json](adapters.json).
-- Traffic: streamed chat requests, Qwen3 thinking off. Chat: short questions, up to 200 output tokens. Long documents: 1,100 to 1,800 prompt tokens, up to 150 output tokens. Script: [bench.py](bench.py).
+- Traffic: streamed chat requests, Qwen3 thinking off. Chat: short questions, up to 200 output tokens. Long documents: about 2,400 prompt tokens on average, up to 150 output tokens (about 50 used). Script: [bench.py](bench.py).
 
 **Read this before comparing numbers.** We measured through our own serving stack (TLS, a gateway with API keys and usage counting, then vLLM), not against vLLM directly. Raw vLLM on the same GPU should be a little faster, so treat these as a floor. Every run in the tables had 0 errors. Two earlier runs had errors from our gateway's per-key rate limit, not from vLLM; we raised the limit and ran them again. Only the clean runs are here.
 

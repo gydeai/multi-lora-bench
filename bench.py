@@ -40,7 +40,7 @@ def chat_body(max_tokens):
 
 
 def longdoc_body(max_tokens):
-    # About 1,100 to 1,800 prompt tokens. A random case number first, so the prefix cache can't reuse earlier prompts.
+    # About 2,400 prompt tokens on average with the Qwen3 tokenizer. A random case number first, so the prefix cache can't reuse earlier prompts.
     doc = f"Case {random.randint(10**8, 10**9)}. " + " ".join(
         DOC.replace("4471", str(random.randint(1000, 9999))) for _ in range(random.randint(16, 26)))
     return {"messages": [{"role": "user", "content": doc + "\n\nExtract the vendor, total amount due and any dispute, as JSON."}],
