@@ -2,7 +2,7 @@
 
 We put 39 public Qwen3-8B LoRA adapters from Hugging Face on one 24 GB NVIDIA A30, all at the same time, and sent traffic at them with vLLM. This repo has the adapters, the exact vLLM command, the load-test script and the raw results, so you can check our numbers or run the same test on your own GPU.
 
-Short version: **adapter swapping, not the GPU, sets your throughput.** One adapter alone did 1,390 output tokens/s. The same load spread evenly over 39 adapters did 231.
+Short version: **adapter swapping, not the GPU, sets your throughput.** At 32 requests at a time, one adapter alone did 806 output tokens/s. The same load spread evenly over 39 adapters did 231.
 
 ## Setup
 
@@ -42,7 +42,7 @@ At max rank 32, vLLM refuses the three rank-64 adapters, so these runs used 36.
 | Spread evenly over 36 adapters | 394 · 0.76 s | 581 · 0.92 s |
 | 80% of calls on 5 adapters | 601 · 0.26 s | 864 · 0.31 s |
 
-16 slots at max rank 64 did not fit: vLLM refused to start ("No available memory for the cache blocks").
+16 slots at max rank 64 did not fit: vLLM refused to start ("No available memory for the cache blocks"). 12 slots did not fit either. At 8 slots and rank 64, the KV cache was 13,760 tokens.
 
 ### Long documents, 8 slots, 80% of calls on 5 adapters
 
@@ -55,10 +55,10 @@ Raw numbers for every table are in [results/](results/).
 
 ## What we learned
 
-1. **Adapter swapping decides your speed, not the GPU.** One adapter: 1,390 tokens/s. 39 adapters spread evenly: 231. Same GPU, same model.
+1. **Adapter swapping decides your speed, not the GPU.** At 32 requests at a time, one adapter: 806 tokens/s. 39 adapters spread evenly: 231. Same GPU, same model.
 2. **`--max-loras` is the setting that matters.** It is how many adapters sit on the GPU at once. Going from 4 to 8 cut time to first token at 8 requests at a time from 2.3 s to 0.25 s.
 3. **Slots cost memory.** Each slot reserves room for an adapter of `--max-lora-rank`, taken from the KV cache. At rank 64, 16 slots didn't fit in 24 GB. At rank 32 they did, and throughput rose a lot. The catch: about 1 in 10 recent Qwen3-8B adapters on the Hub use a rank above 32 (18 of 178 we checked), and vLLM refuses them.
-4. **Real traffic is lopsided, and that helps.** With 80% of calls on 5 adapters, throughput nearly doubled compared with an even spread.
+4. **Real traffic is lopsided, and that helps.** With 80% of calls on 5 adapters, throughput nearly doubled compared with an even spread (418 vs 231 tokens/s at 32 requests at a time).
 5. **Long prompts are cheap.** The A30 read about 3,000 prompt tokens a second. Extraction and classification work suits shared serving well; long chat answers are the hardest case.
 6. **Qwen3 thinking:** add `--reasoning-parser qwen3`, or the `<think>` text ends up inside the reply.
 7. **Restarts take a while.** In our setup a vLLM restart took the endpoint down for 132 to 168 seconds.
