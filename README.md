@@ -6,6 +6,8 @@ Short version: **adapter swapping sets your throughput.** At 32 requests at a ti
 
 A longer write-up, with what went wrong along the way: [How many fine-tuned models can one small GPU serve?](https://theinferencenotebook.substack.com/p/how-many-fine-tuned-models-can-one)
 
+Want to try it end to end? A Kaggle notebook fine-tunes Qwen3-8B on a free T4 in about 2.5 minutes and serves the adapter as an API: [Fine-tune Qwen3-8B and call your adapter as an API](https://www.kaggle.com/code/getprasannav/qwen3-bank-support-to-api).
+
 ## Setup
 
 - GPU: 1 x NVIDIA A30, 24 GB
